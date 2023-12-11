@@ -26,7 +26,7 @@ import Card from "./Card";
   }
 
   function goBackward() {
-    setCurrCardIdx((currCardIdx - 1) % total);
+    setCurrCardIdx((currCardIdx - 1 + total) % total);
   }
 
   return (
